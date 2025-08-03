@@ -1,0 +1,42 @@
+title: Video Downloader
+description: A modern Flask-based web application for downloading videos from multiple platforms
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages configuration
+url: "https://yourusername.github.io"
+baseurl: "/video-downloader"
+
+# SEO settings
+author:
+  name: Your Name
+  email: your.email@example.com
+
+# Social links
+github_username: yourusername
+twitter_username: yourusername
+
+# Theme customization
+color-scheme: auto
+github:
+  repository_url: https://github.com/yourusername/video-downloader
+  
+# Navigation
+header_pages:
+  - README.md
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

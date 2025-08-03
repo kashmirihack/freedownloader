@@ -1,0 +1,13 @@
+[project]
+name = "video-downloader"
+version = "1.0.0"
+description = "A Flask web application for downloading videos from multiple platforms"
+dependencies = [
+    "flask",
+    "yt-dlp",
+    "gunicorn",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
